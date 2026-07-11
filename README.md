@@ -22,14 +22,14 @@ YOU ALSO MAY RENAME THE DRIVE TO WHATEVER YOU LIKE
 ITS THAT EASY
 
 next in uploading code go to the pico's drive and create a text file then name it into boot
-now copy and paste the code(the code is available  IN RELEASES boot.py file)  (reset mechanism using BOOTSEL button) **(also i recommend now to mess with the code in boot.py because that could brick the pico's reset thing and when you save code u need to yank the cable and plug it abck again and its annoying thtas the main reason i built this)**
+now copy and paste the code(the code is available  IN RELEASES boot.py file)  ( boot.py contains the reset mechanism using BOOTSEL button) **(also i recommend now to mess with the code in boot.py because that could brick the pico's reset thing and when you save code u need to yank the cable and plug it abck again and its annoying thtas the main reason i built this)**
 
 
 now in notepad click File-Save As then file name boot.py,then change save as type to all files and save it to the root directory of the pico drive not the RPI-RP2 drive
 
-NOW UNPLUG THE PICO AND PLUG IT BACK IN AND THE DRIVE SHOULD POP UP AGAIN NOW PRESS THE BOOTSEL BUTTON AND THE DRIVE SHOULD DISAPPEAR AND APPEAR AGAIN (IF NOT PRESS THE REFRESH BUTTON IN EXPLORER)
+NOW UNPLUG THE PICO AND PLUG IT BACK IN AND THE DRIVE SHOULD POP UP AGAIN NOW PRESS THE BOOTSEL BUTTON AND THE DRIVE SHOULD DISAPPEAR AND APPEAR AGAIN (IF NOT PRESS THE REFRESH BUTTON IN  YOUR FILE EXPLORER)
 
-now to upload our main.py code create a new txt file there change its name to main then open it in notepad and paste the code (availabe in releases main.py file)
+now to upload our main.py code create a new txt file there change its name to main then open it in notepad and paste the code {availabe in releases main.py (blink example) file}
 
 then file-save as,then name -main.py and change save as type to all files (this is way we upload code here it applies for any code) and save it to the root of the pico,now if you look at the pico the led wont blink,beacuse there is one more step that is to press the BOOTSEL button to reset the pico ans thats the end of this readme
 
