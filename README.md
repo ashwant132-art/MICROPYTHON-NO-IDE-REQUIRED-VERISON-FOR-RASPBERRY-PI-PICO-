@@ -50,10 +50,10 @@ import time
 led = Pin("LED", Pin.OUT)
 
 while True:
-    led.toggle()      # Switches the LED state (On to Off / Off to On)
+    led.toggle()      # Switches the LED state (On to Off / Off to On)   
     time.sleep(0.5)   # Pauses for 0.5 seconds (Change this to adjust speed)
 ******************************************************************************************************************************************
 then file-save as,then name -main.py and change save as type to all files (this is way we upload code here it applies for any code) and save it to the root of the pico,now if you look at the pico the led wont blink,beacuse there is one more step that is to press the BOOTSEL button to reset the pico ans thats the end of this readme
 
-
+also the code in the readme maybe a little like buggy so i will post the code in releases
 ***********************______**************************THE END**************************************************************************
